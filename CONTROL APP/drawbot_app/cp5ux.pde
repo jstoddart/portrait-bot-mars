@@ -690,10 +690,10 @@ if ( theEvent.isController() ) {
         case "home":
             if(!streaming) send( home() );
             break;
-        case "sprayOff":
+        case "penUp":
             if(!streaming) send( gSpray(false) );
             break;
-        case "sprayOn":
+        case "penDn":
             if(!streaming) send( gSpray(true) );
             break;
         // case "penSlider":
